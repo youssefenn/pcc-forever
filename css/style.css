@@ -942,6 +942,10 @@ h5,
 }
 
 @media (max-width: 991.98px) {
+    img.img-fluid.img-absolute {
+        margin-top: 99px;
+        margin-left: 190px;
+    }
     .img-absolute {
         position: relative;
         top: auto;
@@ -2886,7 +2890,7 @@ ul.social-buttons li a {
     color: #fff;
     border-radius: 100%;
     outline: 0;
-    background-color: #1a1d20;
+    background-color: #4285f4;
 }
 
 footer .quick-links {
@@ -2948,3 +2952,41 @@ footer .quick-links {
 gallery-item p {
     color: red;
 }
+
+/* portfolio */
+.box{
+    /* border: 1px solid black; */
+    /* width: 600px; */
+    height: 400px;
+    background-size: 100% auto !important;
+    background-position: top;
+    transition: 10s;
+}
+
+.box:hover{
+    background-position: bottom !important;
+}
+.boxs{
+    /* border: 1px solid black; */
+    /* width: 600px; */
+    height: 400px;
+    background-size: 100% auto !important;
+    background-position: top;
+}
+
+/* .boxs:hover{
+    background-position: bottom !important;
+} */
+
+
+.filterDiv {
+
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  /* .contact{
+      width: 75%;
+  } */
